@@ -1,24 +1,51 @@
-header{
-    border-bottom: 1px solid black;
-  }
+*{
+  font-family: 'Arial ';
+}
+body{
+  background-color: rgb(195, 244, 228);
+}
+header {
+  border-bottom: 1px solid black;
+  text-align: center;
+  background-color: rgb(195, 244, 228);
+  color: rgb(3, 3, 78);
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+aside {
+  width: 180px;
+  border: 1px solid rgb(41, 194, 255);
+  margin-left: 86%;
+  margin-bottom: 1%;
+  text-align: center;
+  background-color:rgb(3, 3, 78);;
+  color: antiquewhite;
+}
+
+footer {
   
-  main{
-    width: 800px;
-  }
-  
-  aside{
-    width: 180px;
-    border: 1px solid black;
-  }
-  
-  footer{
-    background-color: black;
-    color: white;
-    width: 100%;
-  }
-  
-  button{
-    background-color: black;
-    color: white;
-    font-family: serif;
-  }
+  background-color: rgb(151, 253, 195);
+  color: rgb(34, 0, 98);
+  width: 100%;
+  position: sticky;
+  bottom: 0px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-family: serif;
+
+}
+
+button:active{
+  background-color: white;
+  color: black;
+}
